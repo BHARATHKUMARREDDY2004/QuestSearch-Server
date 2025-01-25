@@ -6,7 +6,7 @@ const protoLoader = require('@grpc/proto-loader');
 require('./lib/mongo'); // Assuming MongoDB setup is already in place
 
 // Loades the .proto file for questsearch package
-const packageDefinition = protoLoader.loadSync('./search.proto', {
+const packageDefinition = protoLoader.loadSync(path.join(__dirname, 'search.proto'), {
     keepCase: true,
     longs: String,
     enums: String,
