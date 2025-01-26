@@ -7,7 +7,7 @@ The backend of QuestSearch is designed to efficiently handle search queries for 
 - 🔍 Fast and accurate question search API.
 - 📄 RESTful and gRPC communication support.
 - 🗄️ MongoDB integration for storing and retrieving questions.
-- 🏎️ Optimized indexing for search performance.
+- 📚 Efficient pagination for handling large dataset of questions.
 
 ## 🛠️ Tech Stack
 
